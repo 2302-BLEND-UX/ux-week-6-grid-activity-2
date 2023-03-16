@@ -1,0 +1,28 @@
+@media screen and (min-width: 768px) {
+
+    #hero-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas:
+            "hero hero hero"
+            "tech media ip";
+    }
+
+    #hero {
+        grid-area: hero;
+    }
+
+    #tech {
+        grid-area: tech;
+    }
+
+    #media {
+        grid-area: media;
+    }
+
+    #ip {
+        grid-area: ip;
+    }
+
+    //  end of media query   
+}
